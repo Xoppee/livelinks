@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  db:
+    image: mysql:8.0
+    container_name: livelinks_db
+    restart: always
+    environment:
+      - MYSQL_DATABASE=livelinks
+      - MYSQL_ROOT_PASSWORD=livelinks
+    ports:
+      - '3306:3306'
+    volumes:
+      - livelinks_data:/var/lib/mysql
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: livelinkslinks_pma
+    restart: always
+    links:
+      - db
+    environment:
+      - PMA_HOST=livelinks_db
+      - PMA_PORT=3306
+      - PMA_ARBITRARY=1
+      - PMA_HOSTS=livelinks_db
+    ports:
+      - '8081:80'
+
+volumes:
+  livelinks_data:
