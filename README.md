@@ -23,7 +23,7 @@ O foco principal deste projeto foi resolver o caos de salvar referências de Rea
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/Xoppee/livelinks.git](https://github.com/Xoppee/livelinks.git)
+   git clone https://github.com/Xoppee/livelinks.git
 
 2. Instale as dependências PHP:
    ```bash
