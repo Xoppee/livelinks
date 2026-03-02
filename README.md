@@ -29,11 +29,10 @@ O foco principal deste projeto foi resolver o caos de salvar referências de Rea
    ```bash
    composer install
 
-3. Configure seu ambiente:
-  Copie o arquivo .env.example para .env
-  Gere a chave da aplicação: php artisan key:generate
-  Configure seu banco de dados no .env
-
-4. Rode as migrations:
+3. Rode as migrations:
   ```bash
   php artisan migrate
+   ```
+4. Inicie o servidor:
+   ```bash
+   php artisan serve
