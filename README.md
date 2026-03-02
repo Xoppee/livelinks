@@ -34,7 +34,7 @@ O foco principal foi resolver o caos de gerenciar múltiplos links (YouTube, Twi
 
 3. Rode as migrations:
   ```bash
-  php artisan migrate
+     php artisan migrate
    ```
 4. Inicie o servidor:
    ```bash
