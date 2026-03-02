@@ -2,7 +2,7 @@
 
 O **Livelinks** é uma ferramenta de curadoria e triagem de conteúdos focada na dinâmica de **React** para streamers. Desenvolvido para organizar e centralizar links de vídeos, matérias e sugestões da comunidade, o projeto garante agilidade na navegação durante as transmissões ao vivo. 
 
-Inspirado na plataforma **iLuLives**, o sistema permite que o criador de conteúdo gerencie sua "fila" de reações de forma limpa e performática.
+Inspirado na plataforma **[iLuLives](https://ilulives.ilucasus.com)**, o sistema permite que o criador de conteúdo gerencie sua "fila" de reações de forma limpa e performática.
 
 ## 🚀 Tech Stack
 
